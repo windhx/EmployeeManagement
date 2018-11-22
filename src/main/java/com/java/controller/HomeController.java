@@ -9,14 +9,14 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/")
 public class HomeController {
 	@RequestMapping(value = { "/" }, method = RequestMethod.GET)
-	public ModelAndView welcomePage() {
+	public ModelAndView welcome() {
 		ModelAndView model = new ModelAndView();
 		model.setViewName("homePage");
 		return model;
 	}
 
 	@RequestMapping(value = { "/home" }, method = RequestMethod.GET)
-	public ModelAndView homePage() {
+	public ModelAndView home() {
 		ModelAndView model = new ModelAndView();
 		model.setViewName("homePage");
 		return model;
