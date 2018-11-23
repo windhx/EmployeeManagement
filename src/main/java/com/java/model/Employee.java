@@ -16,13 +16,13 @@ public class Employee {
 	@Column(name = "employeeId")
 	private int id;
 
-	@Column(name = "name", length = 20)
+	@Column(name = "name", length = 45)
 	private String name;
 
-	@Column(name = "email", length = 20)
+	@Column(name = "email", length = 45)
 	private String email;
 
-	@Column(name = "designation", length = 20)
+	@Column(name = "designation", length = 45)
 	private String designation;
 
 
